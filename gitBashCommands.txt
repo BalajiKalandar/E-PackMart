@@ -1,0 +1,9 @@
+git init
+git checkout -b main
+git remote add origin githubRepoPath
+git pull origin main
+git add .
+git commit -m "first commit"
+git status
+git push origin main
+git status
